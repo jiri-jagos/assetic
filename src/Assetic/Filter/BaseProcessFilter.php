@@ -19,7 +19,7 @@ use Symfony\Component\Process\ProcessBuilder;
  */
 abstract class BaseProcessFilter implements FilterInterface
 {
-    private $timeout;
+    private $timeout = 240;
 
     /**
      * Set the process timeout.
